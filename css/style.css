@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.header {
+    background: rgb(44, 44, 44);
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    padding: 36px 0;
+}
+
+.nav_item {
+    
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+}
+
+.nav_item:not(:last-child) {
+    margin-right: 63px;
+}
+
+.logo_title {
+    color: rgb(255, 255, 255);
+    font-family: Arimo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.logo {
+    display: flex;
+    align-items: center ;
+}
+
+.logo_img {
+    margin-right: 10px;
+}
+
+.laptop_inter {
+    background: #2C2C2C;
+}
+
+.container_laptop_inter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 91px 0 67px;
+}
+
+.laptop_inter_title {
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.laptop_inter_content {
+    width: 480px;
+    
+}
+
+.laptop_inter_text {
+    color: rgb(228, 228, 228);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.laptop_inter_link {
+    border-radius: 6px;
+    box-shadow: 0px 2px 13px 0px rgba(231, 232, 208, 0.48);
+    background: linear-gradient(135.00deg, rgba(78, 153, 232, 0.9) 73.282%,rgb(13, 166, 246) 84.733%);
+    padding:  12.5px 25px;
+    color: rgb(39, 54, 147);
+    font-family: Arimo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.laptop_inter_img {
+    width: 600px;
+}
+
+.nav_link {
+ color: rgb(228, 228, 228);
+}
+
+.nav_link:hover {
+    color:rgb(0, 196, 240);
+}
+
+.about {
+    background: rgb(62, 62, 62);
+}
+
+.container_about {
+    padding: 66px 0 40px;
+}
+
+.progress_bar__full {
+    background-color: #00C4F0;
+    height: 10px;
+    width: 356px;
+}
+.progress_bar__first {
+    background-color: #2C2C2C;
+    height: 10px;
+    width: 106px;
+}
+.progress_bar__second {
+    background-color: #2C2C2C;
+    height: 10px;
+    width: 178px;
+}
+.progress_bar__third {
+    background-color: #2C2C2C;
+    height: 10px;
+    width: 52px;
+}
+
+.about__title {
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 92px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_list {
+    list-style: none;
+}
+.about_rate_title {
+    margin-bottom : 72px;
+}
+.about_feature {
+    margin-bottom: 12px;
+}
+.about_item_gpu {
+    margin-bottom: 35px;
+}
+.about_item_cpu {
+    margin-bottom: 35px;
+}
+.about_item_use {
+    margin-bottom: 35px;
+}
+.about_rate_title {
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.about_feature {
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.video {
+    background-color: #2C2C2C;
+}
+.container_video {
+    padding: 66px 0 94px;
+
+}
+
+.video_title {
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+.video_video {
+    width: 100%;
+    height: 659px;
+    border: 50px solid #3E3E3E;
+    border-radius: 29px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    background: rgb(62, 62, 62);
+    padding: 67px 17px 70px;
+
+}
+
+.gallery_title {
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 67px;
+}
+
+.gallery_item {
+    height: 420px;
+    width: 32%;
+    margin-right: 22px;
+    margin-bottom: 39px;
+    
+}
+.gallery_img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.gallery_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+   
+}
+
+.footer {
+    background: rgb(44, 44, 44);
+} 
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 46px;
+}
+
+.footer_title {
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.footer_text {
+    color: rgb(255, 255, 255);
+    font-family: Arimo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.fooret_list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+   
+}  
+
+.footer_item {
+    margin-right: 40px;
+}
